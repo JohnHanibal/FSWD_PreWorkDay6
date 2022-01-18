@@ -1,0 +1,36 @@
+$primaryBtn : rgb(77, 194, 188);
+$textcolor : rgb(63, 41, 41);
+
+.header{
+    background:lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: $textcolor;
+
+    button{
+        background:$primaryBtn ;
+        width: 3%;
+        height:10%
+        
+    }
+}
+
+.contact{
+   color:$textcolor;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        margin-top: 0%;
+    }
+
+   button{
+    background:$primaryBtn;
+    width: 3%;
+    height:10%
+
+    }
+}
